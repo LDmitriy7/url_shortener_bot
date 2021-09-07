@@ -1,0 +1,16 @@
+[Database]
+name = 'url_shortener_bot'
+host = 'localhost'
+port = 27017
+#username = 'root'
+#password = 'abc123'
+#auth_source = 'admin'
+
+[Bot]
+token = 'abc123'
+
+[Api]
+token = 'abc123'
+
+[Users]
+admins_ids = [724477101]
