@@ -14,5 +14,5 @@ async def on_startup(_):
 if __name__ == '__main__':
     import logging
 
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.WARNING, filename='app.log')
     executor.start_polling(dp, on_startup=on_startup)
